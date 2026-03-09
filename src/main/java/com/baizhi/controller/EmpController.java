@@ -30,6 +30,7 @@ public class EmpController {
     @Autowired
     private EmpService empService;
 
+
     @Value("${photo.file.dir}")
     private String realPath;
 
