@@ -24,6 +24,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+
     //登录方法
     @RequestMapping("/login")
     public String login(String username,String password,HttpSession session){
